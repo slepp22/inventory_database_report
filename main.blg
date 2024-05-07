@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: sections/1_reportName_coverPage.aux
+A level-1 auxiliary file: sections/quote_example.aux
+A level-1 auxiliary file: sections/2_contentPage.aux
+A level-1 auxiliary file: sections/3_introduction.aux
+A level-1 auxiliary file: sections/4_research_SotA.aux
+A level-1 auxiliary file: sections/5_methodolody.aux
+A level-1 auxiliary file: sections/6_swDesign.aux
+A level-1 auxiliary file: sections/7_implemenation.aux
+A level-1 auxiliary file: sections/8_testing_eval.aux
+A level-1 auxiliary file: sections/9_reflection_LessonsLearned.aux
+A level-1 auxiliary file: sections/10_nextSteps.aux
+A level-1 auxiliary file: sections/11_Summary.aux
+A level-1 auxiliary file: sections/12_Appendix.aux
+The style file: IEEEtranN.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+-- IEEEtranN.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** Natbib version - not for normal IEEE work.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+
+Done.
+You've used 1 entry,
+            4855 wiz_defined-function locations,
+            966 strings with 8611 characters,
+and the built_in function-call counts, 1096 in all, are:
+= -- 96
+> -- 15
+< -- 12
++ -- 10
+- -- 2
+* -- 66
+:= -- 182
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 2
+chr.to.int$ -- 25
+cite$ -- 1
+duplicate$ -- 65
+empty$ -- 66
+format.name$ -- 3
+if$ -- 228
+int.to.chr$ -- 1
+int.to.str$ -- 2
+missing$ -- 8
+newline$ -- 27
+num.names$ -- 3
+pop$ -- 13
+preamble$ -- 1
+purify$ -- 1
+quote$ -- 2
+skip$ -- 80
+stack$ -- 0
+substring$ -- 59
+swap$ -- 56
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 6
+type$ -- 16
+warning$ -- 0
+while$ -- 6
+width$ -- 0
+write$ -- 36

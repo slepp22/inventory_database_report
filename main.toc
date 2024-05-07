@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Give the project a name / Cover page: (Ifty)}{1}{section.1}%
+\contentsline {section}{\numberline {2}Quote example}{3}{section.2}%
+\contentsline {section}{\numberline {3}Content page Ifdi}{4}{section.3}%
+\contentsline {section}{\numberline {4}Introduction Philipp}{5}{section.4}%
+\contentsline {section}{\numberline {5}Research / State of the Art / alternatively: Motivation (Ting)}{6}{section.5}%
+\contentsline {section}{\numberline {6}Methodology (Felix)}{7}{section.6}%
+\contentsline {section}{\numberline {7}SWDesign Sven}{8}{section.7}%
+\contentsline {section}{\numberline {8}Implementation (Philipp / Felix / Sven)}{9}{section.8}%
+\contentsline {section}{\numberline {9}Testing / Evaluation (Ting)}{10}{section.9}%
+\contentsline {section}{\numberline {10}Reflection / Lessons Learned (Sven)}{11}{section.10}%
+\contentsline {section}{\numberline {11}Next steps / Outlook (Felix)}{12}{section.11}%
+\contentsline {section}{\numberline {12}Summary Ifdi}{13}{section.12}%
+\contentsline {section}{\numberline {13}Append}{14}{section.13}%
