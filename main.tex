@@ -1,17 +1,28 @@
-\documentclass[11pt]{article} % Set to 11pt as per the requirements of the teachers
-\usepackage{hyperref} % For creating hyperlinks in the table of contents
+\documentclass[11pt]{article}
+\usepackage{hyperref} % For creating hyperlinks
+\usepackage{xcolor} % For customizing colors
 \usepackage{graphicx}
 \usepackage[numbers]{natbib}
 \usepackage{style/code_style}
 
-\linespread{1.38} %The default line spacing for 11pt font size is 1.2, multiplying this by 1.38 gives approximately 1.5 spacing which is required for the report
+\linespread{1.38} % Set line spacing to 1.5
+
+% Hyperref settings to customize link appearance
+\hypersetup{
+    colorlinks=true, % Enable colored links
+    linkcolor=black, % Color for internal links
+    citecolor=green, % Color for citations
+    urlcolor=blue % Color for URLs
+}
+
 \begin{document}
+
+
 \include{sections/1_reportName_coverPage}
 
 \tableofcontents
 
 \include{sections/quote_example}
-
 \include{sections/2_contentPage}
 \include{sections/3_introduction}
 \include{sections/4_research_SotA}
@@ -24,10 +35,7 @@
 \include{sections/11_Summary}
 \include{sections/12_Appendix}
 
-
 \bibliographystyle{IEEEtranN}
 \bibliography{references}
-
-
 
 \end{document}

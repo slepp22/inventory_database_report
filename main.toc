@@ -1,13 +1,35 @@
-\contentsline {section}{\numberline {1}Give the project a name / Cover page: (Ifty)}{1}{section.1}%
-\contentsline {section}{\numberline {2}Quote example}{3}{section.2}%
-\contentsline {section}{\numberline {3}Content page Ifdi}{4}{section.3}%
-\contentsline {section}{\numberline {4}Introduction Philipp}{5}{section.4}%
-\contentsline {section}{\numberline {5}Research / State of the Art / alternatively: Motivation (Ting)}{6}{section.5}%
-\contentsline {section}{\numberline {6}Methodology (Felix)}{7}{section.6}%
-\contentsline {section}{\numberline {7}SWDesign Sven}{8}{section.7}%
-\contentsline {section}{\numberline {8}Implementation (Philipp / Felix / Sven)}{9}{section.8}%
-\contentsline {section}{\numberline {9}Testing / Evaluation (Ting)}{10}{section.9}%
-\contentsline {section}{\numberline {10}Reflection / Lessons Learned (Sven)}{11}{section.10}%
-\contentsline {section}{\numberline {11}Next steps / Outlook (Felix)}{12}{section.11}%
-\contentsline {section}{\numberline {12}Summary Ifdi}{13}{section.12}%
-\contentsline {section}{\numberline {13}Append}{14}{section.13}%
+\contentsline {section}{\numberline {1}Quote example}{3}{section.1}%
+\contentsline {section}{\numberline {2}Content page Ifdi}{4}{section.2}%
+\contentsline {section}{\numberline {3}Introduction Philipp}{5}{section.3}%
+\contentsline {section}{\numberline {4}Research / State of the Art / alternatively: Motivation (Ting)}{6}{section.4}%
+\contentsline {section}{\numberline {5}Methodology (Felix)}{7}{section.5}%
+\contentsline {section}{\numberline {6}Software Design}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Introduction}{8}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Architectural Approach}{9}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Frontend Technologies}{9}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Google Maps Integration}{10}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Backend Technologies}{10}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Database Management}{10}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Database Choice}{11}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Locker Controls}{11}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Charging Data Management}{11}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.10}Hosting and Deployment}{12}{subsection.6.10}%
+\contentsline {subsubsection}{\numberline {6.10.1}Frontend Deployment}{12}{subsubsection.6.10.1}%
+\contentsline {subsubsection}{\numberline {6.10.2}Backend Deployment}{13}{subsubsection.6.10.2}%
+\contentsline {subsubsection}{\numberline {6.10.3}Database Hosting}{13}{subsubsection.6.10.3}%
+\contentsline {subsubsection}{\numberline {6.10.4}Sensor Data Management}{14}{subsubsection.6.10.4}%
+\contentsline {subsection}{\numberline {6.11}Conclusion}{14}{subsection.6.11}%
+\contentsline {section}{\numberline {7}Implementation}{16}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Frontend}{16}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Backend}{16}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Arduino}{16}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Testing / Evaluation (Ting)}{17}{section.8}%
+\contentsline {section}{\numberline {9}Reflection / Lessons Learned (Sven)}{18}{section.9}%
+\contentsline {section}{\numberline {10}Next steps / Outlook}{19}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Expanding from One Locker Prototype to Locker Systems}{19}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Real-time Charging Level Monitoring}{20}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Implementation of QR Codes for Streamlined Inventory Management}{20}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Scheduled Maintenance Protocol}{21}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Automated Reservation System}{21}{subsection.10.5}%
+\contentsline {section}{\numberline {11}Summary Ifdi}{22}{section.11}%
+\contentsline {section}{\numberline {12}Append}{23}{section.12}%

@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.5.6)  7 MAY 2024 11:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.5.6)  9 MAY 2024 18:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/felix/Dokumente/inventory_database_report/main.tex
-(/home/felix/Dokumente/inventory_database_report/main.tex
+**/home/felix/Dokumente/Uni/PSE/inventory_database_report/main.tex
+(/home/felix/Dokumente/Uni/PSE/inventory_database_report/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -130,6 +130,24 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip49
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -140,9 +158,7 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-))
+)
 \Gin@req@height=\dimen143
 \Gin@req@width=\dimen144
 ) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
@@ -151,32 +167,58 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip51
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count269
-) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (./style/code_style.sty
+Package: style/code_style 
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count270
+\lst@gtempboxa=\box50
+\lst@token=\toks17
+\lst@length=\count271
+\lst@currlwidth=\dimen145
+\lst@column=\count272
+\lst@pos=\count273
+\lst@lostspace=\dimen146
+\lst@width=\dimen147
+\lst@newlines=\count274
+\lst@lineno=\count275
+\lst@maxwidth=\dimen148
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count276
+\lst@skipnumbers=\count277
+\lst@framebox=\box51
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 16.
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count270
-\l__pdf_internal_box=\box50
+\l__color_backend_stack_int=\count278
+\l__pdf_internal_box=\box52
 ) (./main.aux (./sections/1_reportName_coverPage.aux) (./sections/quote_example.aux) (./sections/2_contentPage.aux) (./sections/3_introduction.aux) (./sections/4_research_SotA.aux) (./sections/5_methodolody.aux) (./sections/6_swDesign.aux) (./sections/7_implemenation.aux) (./sections/8_testing_eval.aux) (./sections/9_reflection_LessonsLearned.aux) (./sections/10_nextSteps.aux) (./sections/11_Summary.aux) (./sections/12_Appendix.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-Package hyperref Info: Link coloring OFF on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+Package hyperref Info: Link coloring ON on input line 18.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -184,62 +226,65 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count271
+\c@section@level=\count279
 )
-LaTeX Info: Redefining \ref on input line 6.
-LaTeX Info: Redefining \pageref on input line 6.
-LaTeX Info: Redefining \nameref on input line 6.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count272
-\scratchdimen=\dimen145
-\scratchbox=\box51
-\nofMPsegments=\count273
-\nofMParguments=\count274
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count275
-\MPscratchDim=\dimen146
-\MPnumerator=\count276
-\makeMPintoPDFobject=\count277
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count280
+\scratchdimen=\dimen149
+\scratchbox=\box53
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count283
+\MPscratchDim=\dimen150
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+\c@lstlisting=\count286
 \openout2 = `sections/1_reportName_coverPage.aux'.
 
  (./sections/1_reportName_coverPage.tex
-<images/logo.png, id=56, 501.875pt x 454.69875pt>
+<images/logo.png, id=144, 501.875pt x 454.69875pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 27.
-(pdftex.def)             Requested size: 172.5pt x 156.28842pt.
+Package pdftex.def Info: images/logo.png  used on input line 26.
+(pdftex.def)             Requested size: 180.0pt x 163.08086pt.
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/logo.png>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/logo.png>]) (./main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 40.
+(Font)              <10.95> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 40.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+(Font)              <8> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 7.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.7 \include{sections/1_reportName_coverPage}
-                                              [1] (./main.toc)
+l.25 ...mberline {7.3}Arduino}{16}{subsection.7.3}
+                                                  % [1
+
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2
-
-
-]
+ [2]
 \openout2 = `sections/quote_example.aux'.
 
  (./sections/quote_example.tex) [3
@@ -275,72 +320,96 @@ l.7 \include{sections/1_reportName_coverPage}
 ]
 \openout2 = `sections/6_swDesign.aux'.
 
- (./sections/6_swDesign.tex) [8
+ (./sections/6_swDesign.tex
+<images/software_design_diagram.jpg, id=232, 5352.99875pt x 3011.25pt>
+File: images/software_design_diagram.jpg Graphic file (type jpg)
+<use images/software_design_diagram.jpg>
+Package pdftex.def Info: images/software_design_diagram.jpg  used on input line 15.
+(pdftex.def)             Requested size: 288.0011pt x 161.9664pt.
+ [8
 
 
 
-]
+ <./images/software_design_diagram.jpg>] [9] [10] [11]
+<images/software_design_deployment.jpg, id=250, 5352.99875pt x 3011.25pt>
+File: images/software_design_deployment.jpg Graphic file (type jpg)
+<use images/software_design_deployment.jpg>
+Package pdftex.def Info: images/software_design_deployment.jpg  used on input line 119.
+(pdftex.def)             Requested size: 288.0011pt x 161.9664pt.
+ [12 <./images/software_design_deployment.jpg>] [13]
+Overfull \hbox (4.84837pt too wide) in paragraph at lines 138--139
+\OT1/cmr/m/n/10.95 The sen-sor data col-lected by the Ar-duino con-trollers is trans-mit-ted to ThingS-
+ []
+
+
+Overfull \hbox (2.31361pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/10.95 ac-ces-si-bil-ity, scal-a-bil-ity, and re-li-a-bil-ity. By uti-liz-ing plat-forms such as Netlify,
+ []
+
+[14]) [15]
 \openout2 = `sections/7_implemenation.aux'.
 
- (./sections/7_implemenation.tex) [9
+ (./sections/7_implemenation.tex (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)) [16
 
 
 
 ]
 \openout2 = `sections/8_testing_eval.aux'.
 
- (./sections/8_testing_eval.tex) [10
+ (./sections/8_testing_eval.tex) [17
 
 
 
 ]
 \openout2 = `sections/9_reflection_LessonsLearned.aux'.
 
- (./sections/9_reflection_LessonsLearned.tex) [11
+ (./sections/9_reflection_LessonsLearned.tex) [18
 
 
 
 ]
 \openout2 = `sections/10_nextSteps.aux'.
 
- (./sections/10_nextSteps.tex) [12
+ (./sections/10_nextSteps.tex [19
 
 
 
-]
+] [20]) [21]
 \openout2 = `sections/11_Summary.aux'.
 
- (./sections/11_Summary.tex) [13
+ (./sections/11_Summary.tex) [22
 
 
 
 ]
 \openout2 = `sections/12_Appendix.aux'.
 
- (./sections/12_Appendix.tex) [14
+ (./sections/12_Appendix.tex) [23
 
 
 
-] (./main.bbl) [15
+] (./main.bbl) [24
 
 
 ] (./main.aux (./sections/1_reportName_coverPage.aux) (./sections/quote_example.aux) (./sections/2_contentPage.aux) (./sections/3_introduction.aux) (./sections/4_research_SotA.aux) (./sections/5_methodolody.aux) (./sections/6_swDesign.aux) (./sections/7_implemenation.aux) (./sections/8_testing_eval.aux) (./sections/9_reflection_LessonsLearned.aux) (./sections/10_nextSteps.aux) (./sections/11_Summary.aux) (./sections/12_Appendix.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AC57D3CEE37B757CDE50BA8DA7FA7650;2404.
+(rerunfilecheck)             Checksum: 015CF889D9E7809BFB2B1E24934CD95B;5977.
  ) 
 Here is how much of TeX's memory you used:
- 8891 strings out of 480171
- 148126 string characters out of 5894490
- 420234 words of memory out of 5000000
- 26622 multiletter control sequences out of 15000+600000
- 471730 words of font info for 36 fonts, out of 8000000 for 9000
+ 11258 strings out of 480171
+ 179979 string characters out of 5894490
+ 652884 words of memory out of 5000000
+ 28919 multiletter control sequences out of 15000+600000
+ 475145 words of font info for 48 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,5n,63p,473b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (16 pages, 268787 bytes).
+ 60i,6n,63p,1014b,1312s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/felix/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (25 pages, 1131635 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 380 PDF objects out of 1000 (max. 8388607)
+ 330 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 296 words of extra memory for PDF output out of 10000 (max. 10000000)
 
