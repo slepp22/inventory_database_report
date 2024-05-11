@@ -3,9 +3,11 @@
 
 \subsection{Arduino Implementation}
 
+This document presents a comprehensive overview of the Arduino implementation, encompassing essential setup instructions, required libraries, a detailed flow chart elucidating the use case, a comprehensive sensor overview, and a schematic representation using Fritzing. Through this structured presentation, readers will gain a robust understanding of the technical components and operational procedures integral to this Arduino-based project.
+
 \subsubsection{Arduino Setup}
 
-The Arduino component of the locker system project is developed using Arduino IDE version 2.3.2 \cite{arduino-software}. This development environment ensures a streamlined workflow, particularly when the Arduino is connected via USB, with logs displayed within the IDE's Terminal.
+The Arduino \textbf{ARDUINO UNO WiFi REV2} \cite{arduino_uno_wifi_rev2} component of the locker system project is developed using Arduino IDE version 2.3.2 \cite{arduino-software}. This development environment ensures a streamlined workflow, particularly when the Arduino is connected via USB, with logs displayed within the IDE's Terminal.
 
 To set up the Arduino for this project, follow these steps:
 
@@ -84,7 +86,22 @@ The following list includes the most important libraries used in the Arduino imp
     \item \textbf{Keypad} by Mark Stanley, Alexander Brevig 3.1.1 (Keypad) \\ Allows user input for password authentication and interaction with the locker system.
     \item \textbf{ThingSpeak} by MathWorks 2.0.1 \\ Sends sensor data to ThingSpeak for real-time monitoring and visualization.
 \end{itemize}
+\newpage
+\subsubsection{Flow Chart}
+In this section, we provide a detailed flow chart illustrating the step-by-step process of utilizing our 
+locker system for charging or renting items. The flow chart serves as a visual guide to clarify the 
+functionality of our product, outlining the precise sequence of actions required to either charge your 
+item securely within our lockers or efficiently rent an item from our locker device. 
+This visual representation will enhance your understanding of how our innovative locker system operates,
+ensuring a seamless and user-friendly experience for our customers. 
+Let's delve into the flow chart to explore the intricacies of our product functionality.
 
+\begin{figure}[h]
+    \centering
+   % \includegraphics[width=\textwidth]{images/arduino/flowchart_ard}
+    \caption{Flow chart for charging or renting items}
+    \label{fig:flowchart}
+\end{figure}
 
 \newpage
 
