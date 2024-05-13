@@ -20,17 +20,17 @@ Once the development environment is set up, the application can be run locally b
 The following list includes the most important libraries used in the backend implementation along with their versions:
 
 \begin{itemize}
-    \item \textbf{FastAPI} (\texttt{fastapi==0.110.2}): FastAPI is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints.
+    \item \textbf{\href{https://fastapi.tiangolo.com/}{FastAPI}} (\texttt{fastapi==0.110.2}): FastAPI is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints.
 
-    \item \textbf{SQLAlchemy} (\texttt{SQLAlchemy==2.0.29}): SQLAlchemy is the Python SQL toolkit and Object-Relational Mapper that gives application developers the full power and flexibility of SQL.
+    \item \textbf{\href{https://www.sqlalchemy.org/}{SQLAlchemy}} (\texttt{SQLAlchemy==2.0.29}): SQLAlchemy is the Python SQL toolkit and Object-Relational Mapper that gives application developers the full power and flexibility of SQL.
 
-    \item \textbf{Alembic} (\texttt{alembic==1.13.1}): Alembic is a lightweight database migration tool for usage with the SQLAlchemy Database Toolkit for Python.
+    \item \textbf{\href{https://alembic.sqlalchemy.org/en/latest/}{Alembic}} (\texttt{alembic==1.13.1}): Alembic is a lightweight database migration tool for usage with the SQLAlchemy Database Toolkit for Python.
 
-    \item \textbf{Pydantic} (\texttt{pydantic==2.7.1}): Pydantic is a data validation and settings management using Python type annotations.
+    \item \textbf{\href{https://docs.pydantic.dev/latest/}{Pydantic}} (\texttt{pydantic==2.7.1}): Pydantic is a data validation and settings management using Python type annotations.
 
-    \item \textbf{uvicorn} (\texttt{uvicorn==0.29.0}): Uvicorn is a lightning-fast ASGI server implementation, using uvloop and httptools.
+    \item \textbf{\href{https://www.uvicorn.org/}{uvicorn}} (\texttt{uvicorn==0.29.0}): Uvicorn is a lightning-fast ASGI server implementation, using uvloop and httptools.
 
-    \item \textbf{psycopg2-binary}: Psycopg is the most popular PostgreSQL database adapter for the Python programming language.
+    \item \textbf{\href{https://pypi.org/project/psycopg2/}{Psycopg2}}: Psycopg is the most popular PostgreSQL database adapter for the Python programming language.
 \end{itemize}
 
 \subsubsection{Request Handling in FastAPI and SQLAlchemy}
@@ -45,7 +45,7 @@ A crucial aspect of understanding the backend implementation is to grasp how Fas
 \end{figure}
 
 
-This diagram visually depicts the sequence of steps involved in processing a client request, starting from the client making an HTTP request to the backend API. FastAPI routes the request to the appropriate endpoint, where it is processed by the corresponding router function. The router function interacts with the database through SQLAlchemy ORM, executing CRUD operations as necessary to fulfill the request. Once the database operations are complete, a response is generated and returned to the client.
+This diagram visually represents the sequence of steps involved in processing a client request, starting from the client making an HTTP request to the backend API. FastAPI routes the request to the appropriate endpoint, where it is processed by the corresponding router function. The router function interacts with the database through SQLAlchemy ORM, executing CRUD operations as necessary to fulfill the request. Once the database operations are complete, a response is generated and returned to the client.
 
 Understanding this request handling flow is essential for developers to comprehend the inner workings of the backend system and troubleshoot any issues that may arise during development or deployment.
 
@@ -65,7 +65,7 @@ The backend part of the locker system project adheres to a well-organized struct
 
     \item \textbf{alembic/versions}: This directory houses database migration files managed by Alembic, a lightweight migration tool for SQLAlchemy. Organizing migrations in a structured manner facilitates version control and systematic evolution of the database schema over time.
 
-    \item \textbf{images}: Images used in the project documentation, such as the README file, are stored in this directory. Including visual aids enhances readability and comprehension of project-related instructions and guidelines.
+    \item \textbf{images}: Images used in the project documentation, such as the README file, are stored in this directory. Including visuals enhances readability and comprehension of project-related instructions and guidelines.
 
     \item \textbf{Dockerfile}: Docker simplifies application deployment by encapsulating the application and its dependencies into portable containers. The Dockerfile specifies the steps to build a Docker image, promoting consistency and reproducibility across different deployment environments.
 \end{itemize}
