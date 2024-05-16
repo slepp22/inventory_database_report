@@ -12,7 +12,13 @@ Here’s why using Postman to test APIs created by FastAPI is beneficial:
 
     \item \textbf{Real-time Feedback and Collaboration:} During the development phase, using Postman allows developers to test APIs in real-time, enabling them to identify any issues or errors promptly. For instance, when encountering an unexpected response status code of 403 (Forbidden), Postman allows us to easily share the request details with other team members. We can collaborate to rectify the issues and update the test accordingly.
 
-    \item \textbf{Automated Testing:} We can use Postman CLI to automate collection runs on continuous integration and deployment (CI/CD) pipelines. After running the commands in the local terminal, the Postman CLI generates a link. Following the link, team members can check the detailed results.
+    \item \textbf{Automated Testing:} We can use Postman CLI to automate collection runs on continuous integration and deployment (CI/CD) pipelines. After running the commands in the local terminal, the Postman CLI generates a link. Following the link, team members can check the detailed results of the tests that got executed.
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/postman_cli_details}
+    \caption{Postman CLI Test Results}
+    \label{fig:postman-cli-details}
+\end{figure}
 \end{enumerate}
 
 \subsection{How we test}
