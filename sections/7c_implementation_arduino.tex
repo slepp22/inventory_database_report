@@ -1,5 +1,5 @@
 \subsection{Arduino}
-{\tiny Written by: Felix Huther}\\
+{\tiny Written by: Felix Huther}
 
 \subsection{Arduino Implementation}
 
@@ -7,7 +7,7 @@ This document presents a comprehensive overview of the Arduino implementation, e
 
 \subsubsection{Arduino Setup}
 
-The Arduino \textbf{Arduino Uno WiFi REV2} \cite{arduino_uno_wifi_rev2} component of the locker system project is developed using Arduino IDE version 2.3.2 \cite{arduino-software}. This development environment ensures a streamlined workflow, particularly when the Arduino is connected via USB, with logs displayed within the IDE's Terminal.
+The \textbf{Arduino Uno WiFi REV2} \cite{arduino_uno_wifi_rev2} component of the locker system project is developed using Arduino IDE version 2.3.2 \cite{arduino-software}. This development environment ensures a streamlined workflow, particularly when the Arduino is connected via USB, with logs displayed within the IDE's Terminal.
 
 To set up the Arduino for this project, follow these steps:
 
@@ -61,7 +61,8 @@ To set up the Arduino for this project, follow these steps:
     int voltage = 220; // Default Voltage for Power Grid (in volts)
     \end{lstlisting}
 
-    In the provided Arduino sketch code snippet, the `voltage` variable is initialized with a default value of 220 volts, which is commonly used in many regions. Modify this value according to the specific voltage rating of your local power grid to ensure accurate readings and safe operation of your voltage monitoring system.
+    In the provided Arduino sketch code snippet, the `voltage` variable is initialized with a default value of 220 volts, which is commonly used in many regions.
+    Adjust this value to match the specific voltage rating of your local power grid to ensure accurate readings and safe operation of your voltage monitoring system.
 
 \end{enumerate}
 
@@ -79,7 +80,7 @@ and functional Arduino setup for the locker system project.
 The following list includes the most important libraries used in the Arduino implementation along with their versions:
 
 \begin{itemize}
-    \item \textbf{Servo} by Michael Margolis, Arduino 1.2.1 (Servo Motor) \\ Controls the movement of servos for locking and unlocking the locker door.
+    \item \textbf{Servo} by Michael Margolis 1.2.1(\\ Controls the movement of servos for locking and unlocking the locker door.
     \item \textbf{Grove - LCD RGB Backlight} by Seeed Studio 1.0.0 (Display LCD) \\ Displays information and status messages on the locker system interface.
     \item \textbf{ArduinoJson} by Benoit Blanchon 7.0.4 \\ Parses and manipulates JSON data for communication and data exchange.
     \item \textbf{WifiNINA} by Arduino 1.8.14 \\ Enables Wi-Fi connectivity for accessing online services (FastAPI) and remote monitoring (ThingSpeak).
@@ -185,7 +186,9 @@ Let's delve into the flow chart to explore the intricacies of our product functi
 
 \newpage
 \subsubsection{Fritzing}\label{sec:ArduinoFritzing}
-The image depicted in Figure \ref{fig:ardFritzing} illustrates the correct arrangement and connections of cables and components required for setting up the Arduino system as described in this guide. This visual guide, created using Fritzing software, provides a clear representation of how to wire the Arduino board with various sensors and peripherals. Referencing this diagram will ensure accurate implementation of the hardware setup outlined in the instructions.
+The image depicted in Figure \ref{fig:ardFritzing} illustrates the correct arrangement and connections of cables and components required for setting up the Arduino system as described in this guide. 
+This visual guide, created using Fritzing software, provides a clear representation of how to wire the Arduino board with various sensors and peripherals. 
+Refer to this diagram to accurately implement the hardware setup as outlined in the instructions.   
 
 \begin{figure}[h]
     \centering
