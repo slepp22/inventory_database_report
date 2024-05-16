@@ -68,6 +68,7 @@ app.use(router)
 app.mount('#app')
     \end{lstlisting}
 \end{itemize}
+\newpage
 \subsubsection{Vue.js-File Introduction}
 In vue.js, individual vue files are divided into three parts. These start with a template part, followed by a script part and optionally a style part can be created.
 The HTML code is written in the template part. However, libraries such as BootstrapVue can also be used in this part to use ready-made HTML elements. In the script part, the page is initialized and all functions that this special page uses can be defined. Comprehensive functions are integrated in the import of the script part. If it is necessary to style HTML elements differently on a specific page, a style section can be added in which CSS classes can be defined.
@@ -109,7 +110,7 @@ export default defineComponent({
 </script>
     \end{lstlisting}
 \item \textbf{style:}
-\begin{lstlisting}[language=TypeScript]
+\begin{lstlisting}[language=HTML]
 </script>
 <style>
 .pin-container {
@@ -225,7 +226,6 @@ This section presents the sitemaps for both the Admin and User frontends of the 
     \caption{Admin Frontend Sitemap}
     \label{fig:myimage}
 \end{figure}
-\clearpage
 \item \textbf {User Frontend}
 \begin{figure}[h]
     \centering
